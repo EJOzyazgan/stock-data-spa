@@ -1,7 +1,7 @@
 export const getTickers = () => {
   return new Promise((resolve, reject) => {
     fetch(
-      "https://5a43ci7xnmcsktba3c34eiktwi0kvfjj.lambda-url.us-west-2.on.aws/",
+      "https://idjfsvzkoy5qm2ccbnmayahrtu0zjqsw.lambda-url.us-west-2.on.aws/",
       {
         method: 'GET'
       })
@@ -17,7 +17,7 @@ export const getTickers = () => {
 export const updateTickers = (tickers) => {
   return new Promise((resolve, reject) => {
     fetch(
-      "https://poz6zvzmcvbroiy4q56isfp3xa0wlosg.lambda-url.us-west-2.on.aws/",
+      "https://fpaukwkk33cqrzt3ljoep34tpm0avjlr.lambda-url.us-west-2.on.aws/",
       {
         method: 'POST',
         body: JSON.stringify({tickers})
